@@ -1,0 +1,32 @@
+/*  
+  Lavanya Srinivasan  - 1002040671
+  Vigneshwar Selvaraj - 1001863627
+  Siddartha Reddy Sungomula - 1001969005
+*/
+.container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.container .row .column{
+  flex: 50%; 
+}
+
+.container .row .column p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #8c8b8b;
+}
+
+.container .row .column h{
+  color: #0000;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}

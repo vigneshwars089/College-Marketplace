@@ -1,0 +1,62 @@
+/*  
+  Lavanya Srinivasan  - 1002040671
+  Vigneshwar Selvaraj - 1001863627
+  Siddartha Reddy Sungomula - 1001969005
+*/
+.business {
+    height: calc(100% - 65px);
+    overflow-y: auto;
+  }
+  .container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    overflow-y: auto;
+    float: left;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    box-shadow: 5px 5px 30px 7px rgb(0 0 0 / 25%), -5px -5px 30px 7px rgb(0 0 0 / 22%);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.container .img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+  @media (max-width: 768px) {
+    .container {
+      height: calc(100% - 110px);
+    }
+  }
+  

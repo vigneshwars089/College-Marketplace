@@ -1,0 +1,87 @@
+/*  
+  Lavanya Srinivasan  - 1002040671
+  Vigneshwar Selvaraj - 1001863627
+  Siddartha Reddy Sungomula - 1001969005
+*/
+
+/* Login Form */
+
+.login-div {
+    height: calc(100% - 65px);
+  }
+  
+  .login-form {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 3rem 5rem;
+    border-radius: 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: medium;
+  }
+  @media (max-width: 768px) {
+    .login-form {
+      padding: 3rem;
+    }
+  }
+
+  .pad-top {
+    padding-top: 1rem;
+  }
+
+  .login-form form button {
+    outline: none;
+    border: none;
+    font-size: 1.0rem;
+    padding: 1rem 2rem;
+    margin-right: 1.5rem;
+    background-color: #0096ff;
+    color: white;
+    cursor: pointer;
+  }
+
+  .login-form form p a {
+    color:#b3b3bd;
+  }
+
+  input[type="submit"] {
+    width: 250px;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #47525e;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .forgot-link,
+  .forgot-link:visited,
+  .forgot-link:hover,
+  .forgot-link:active {
+    font-size: 14px;
+    color: #76c893;
+  }
+  .align-center {
+    text-align: center;
+  }
+  
+  .register-div {
+    font-size: 18px;
+    padding-top: 2rem;
+  }
+  
+  .register-link,
+  .register-link:visited,
+  .register-link:hover,
+  .register-link:active {
+    color: #76c893;
+    text-decoration: underline;
+    text-decoration-color: #76c893;
+  }
+  
